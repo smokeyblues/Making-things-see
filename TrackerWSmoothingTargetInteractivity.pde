@@ -39,8 +39,6 @@ void setup() {
 
 void draw() {
   // closestValue declares the distance threshold for the tracker.
-  // it is currently set at 8000 meaning that anything measured past 
-  // 8,000 millimeters will be ignored
   closestValue = 1700;
   
   //maybe this gets the depth array from the kinect in Processing3
