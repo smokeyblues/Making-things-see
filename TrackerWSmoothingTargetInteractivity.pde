@@ -1,9 +1,13 @@
 //my kinect tracker program
 
 /*
-  This program is basically like the finds the closest pixel within the range determined by the closestValue variable and uses that pixel like the mouseX and mouseY variables that would normally be captured from a mouse. It draws a red circle around the pixel that acts as the cursor.
+  This program is basically like the finds the closest pixel within the range determined by the closestValue variable
+  and uses that pixel like the mouseX and mouseY variables that would normally be captured from a mouse. It draws a red circle 
+  around the pixel that acts as the cursor.
   
-  There three targets displayed to the left of the screen that trigger random filters. Whe you put the cursor inside one of these targets, it will trigger a filter on the video image. Oh and this program is also reading the video image from the kinect instead of the depth image that Borenstein used in his example. 
+  There three targets displayed to the left of the screen that trigger random filters. Whe you put the cursor inside one
+  of these targets, it will trigger a filter on the video image. Oh and this program is also reading the video image from
+  the kinect instead of the depth image that Borenstein used in his example. 
 */
 
 import org.openkinect.freenect.*;
